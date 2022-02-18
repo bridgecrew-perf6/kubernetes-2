@@ -1,2 +1,2 @@
-# kubernetes
-Deployments, Services, Stacks, and IngressRoutes 
+# Kubernetes
+My Kubernetes stuff.
