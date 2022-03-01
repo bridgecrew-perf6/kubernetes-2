@@ -1,0 +1,17 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: demo-ingress-with-auth
+  namespace: traefik
+spec:
+  entryPoints:
+  - web
+  routes:
+  - kind: Rule
+    match: Host(`demo.example.com`)
+    middlewares:
+    - name: auth
+      namespace: traefik
+      services:
+        - name: demo-service
+          port: port-of-demo-service
