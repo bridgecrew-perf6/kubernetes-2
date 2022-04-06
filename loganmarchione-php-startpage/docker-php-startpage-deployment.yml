@@ -28,3 +28,4 @@ spec:
         - name: startpage-pvc
           persistentVolumeClaim:
             claimName: startpage-pvc
+# Thanks to loganmarchione for creating and maintaining this image: https://hub.docker.com/r/loganmarchione/docker-php-startpage

@@ -11,3 +11,4 @@ spec:
     targetPort: 80
   selector:
     pod-label: startpage
+# Thanks to loganmarchione for creating and maintaining this image: https://hub.docker.com/r/loganmarchione/docker-php-startpage

@@ -11,3 +11,4 @@ spec:
   resources:
     requests:
       storage: 100Mi
+# Thanks to loganmarchione for creating and maintaining this image: https://hub.docker.com/r/loganmarchione/docker-php-startpage
